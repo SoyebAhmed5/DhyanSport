@@ -1,0 +1,142 @@
+* {
+  font-family: Bebas Neue;
+}
+
+ body {
+    padding-top: 70px; /* Adjust based on your navbar height */
+    background-color: rgb(33, 37, 41);
+    color: rgb(237, 232, 232);
+    font-size: medium;
+
+  }
+
+pre{
+  font-family: Bebas Neue;
+font-size: 1rem;
+}
+
+.bgcolor {
+  background-color: #fd7e14;
+}
+
+.textColor{
+  color:#fd7e14;
+}
+
+.fontC{
+  color:white
+}
+
+.paddingCard{
+  padding-top: 20px;
+}
+
+/* Header */
+
+.topB {
+  background-color: #fd7e14;
+}
+.focus{
+  background-color: aliceblue;
+  
+}
+
+.logo1{
+  background-image: url("/Assets/src(images)/dhyan_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+/* Hero Section */
+
+.Hero_bg1 {
+  background-image: url("/Assets/src(images)/sports_img-30.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.moreInfoBtn:hover {
+  color: black;
+}
+.Heromsg {
+  font-family: Bebas Neue;
+}
+
+.btLean{
+  background-color: #fd7e14;
+  color: white;
+}
+
+/* Mission & Vision */
+
+.tColor{
+  padding: 50px;
+  color: rgba(255, 255, 255,1) ;
+  background-color: black;
+}
+
+.cardImgSize{
+  
+  height: 480px;
+}
+
+.cardP{
+  padding: 0px 20px 20px 0px;
+  
+}
+
+/* Call to Action */
+.newsL{
+  padding: 20px;
+}
+
+
+.imgCards{
+  height: 500px;
+  width: 10px;
+}
+
+
+.bgColorbtn{
+  color: aliceblue;
+  background-color: #fd7e14;
+}
+
+.card {
+  border: none;
+}
+
+.container1{
+   display: flex;
+    flex-direction: column;
+}
+.content1{
+  flex: 1;
+}
+.fixed-button {
+    align-self: flex-bottom;
+}
+
+/*  Central Message */
+
+.centralMess {
+  background-color: #fd7e14;
+  height: 5rem;
+}
+
+
+
+/* FOOTER */
+
+.logo{
+  background-image: url("/Assets/src(images)/dhyan_logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.chairPersonM{
+   background-image: url("/Assets/src(images)/dhyan_logo.png");
+    background-size: cover;
+    height: 80rem;
+}

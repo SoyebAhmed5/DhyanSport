@@ -1,0 +1,94 @@
+* {
+  font-family: Bebas Neue;
+  text-decoration: none;
+}
+
+pre{
+  font-family: Bebas Neue;
+font-size: 1rem;
+}
+
+ body {
+    padding-top: 70px; /* Adjust based on your navbar height */
+    background-color: rgb(33, 37, 41);
+    color: rgb(237, 232, 232);
+    font-size: medium;
+
+  }
+.bkColor{
+  background-color: rgb(33, 37, 41);
+    color: white;
+}
+
+  .sizeImg{
+    height: 80vh;
+  }
+/* HEADER */
+.logo1{
+  background-image: url("/Assets/src(images)/dhyan_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.textColor{
+  color:#fd7e14;
+}
+.focus{
+  background-color: aliceblue;
+  
+}
+
+.topB {
+  background-color: #fd7e14;
+}
+
+
+.backG_Overview{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+section{
+   border: 2px solid #ff6600;
+  border-radius: 12px;
+   margin: 20px;
+}
+
+
+/* FOOTER */
+
+.logo{
+  background-image: url("/Assets/src(images)/dhyan_logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+
+.section-image {
+  border-radius: 12px;
+  border: 1.5px solid #ff6600;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.section-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .section-content-wrapper {
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+  }
+  .section-content-text {
+    flex: 1;
+  }
+  .section-content-image {
+    flex: 1;
+  }
+}

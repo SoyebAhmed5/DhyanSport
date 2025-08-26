@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.btn-primary {
+      background: linear-gradient(135deg, #ff5f1f 0%, #ff871f 100%);
+      border: none;
+      font-weight: 600;
+      padding: 12px;
+      border-radius: 12px;
+      width: 100%;
+      color: #1a1a1a;
+    }
+.submit-btn{
+    padding-top: 10px;
+}

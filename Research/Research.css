@@ -2,43 +2,40 @@
   font-family: Bebas Neue;
 }
 
-pre{
+pre {
   font-family: Bebas Neue;
-font-size: 1rem;
+  font-size: 1rem;
 }
 
-body{
-    padding-top: 70px; /* Adjust based on your navbar height */
-    background-color: rgb(33, 37, 41);
-    color: rgb(237, 232, 232);
-    font-size: medium;
+body {
+  padding-top: 70px; /* Adjust based on your navbar height */
+  background-color: rgb(33, 37, 41);
+  color: rgb(237, 232, 232);
+  font-size: medium;
 }
 
-
-.padd{
+.padd {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 /* HEADER */
-.logo1{
-  background-image: url("/Assets/src(images)/dhyan_logo.png");
-    background-size: cover;
-    height: 50px;
-    width: 50px;
+.logo1 {
+  background-image: url("/Assets/image/dhyan_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
 }
-.focus{
+.focus {
   background-color: aliceblue;
-  
 }
-
 
 /* FOOTER */
-.textColor{
-  color:#fd7e14;
+.textColor {
+  color: #fd7e14;
 }
-.logo{
-  background-image: url("/Assets/src(images)/dhyan_logo.png");
-    background-size: cover;
-    height: 100px;
-    width: 100px;
+.logo {
+  background-image: url("/Assets/image/dhyan_logo.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
 }

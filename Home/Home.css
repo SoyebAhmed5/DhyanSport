@@ -2,32 +2,31 @@
   font-family: Bebas Neue;
 }
 
- body {
-    padding-top: 70px; /* Adjust based on your navbar height */
-    background-color: rgb(33, 37, 41);
-    color: rgb(237, 232, 232);
-    font-size: medium;
+body {
+  padding-top: 70px; /* Adjust based on your navbar height */
+  background-color: rgb(33, 37, 41);
+  color: rgb(237, 232, 232);
+  font-size: medium;
+}
 
-  }
-
-pre{
+pre {
   font-family: Bebas Neue;
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 .bgcolor {
   background-color: #fd7e14;
 }
 
-.textColor{
-  color:#fd7e14;
+.textColor {
+  color: #fd7e14;
 }
 
-.fontC{
-  color:white
+.fontC {
+  color: white;
 }
 
-.paddingCard{
+.paddingCard {
   padding-top: 20px;
 }
 
@@ -36,22 +35,21 @@ font-size: 1rem;
 .topB {
   background-color: #fd7e14;
 }
-.focus{
+.focus {
   background-color: aliceblue;
-  
 }
 
-.logo1{
-  background-image: url("/Assets/src(images)/dhyan_logo.png");
-    background-size: cover;
-    height: 50px;
-    width: 50px;
+.logo1 {
+  background-image: url("/Assets/image/dhyan_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
 }
 
 /* Hero Section */
 
 .Hero_bg1 {
-  background-image: url("/Assets/src(images)/sports_img-30.jpg");
+  background-image: url("/Assets/image/sports_img-30.jpg");
   height: 100vh;
   background-size: cover;
 }
@@ -62,42 +60,38 @@ font-size: 1rem;
   font-family: Bebas Neue;
 }
 
-.btLean{
+.btLean {
   background-color: #fd7e14;
   color: white;
 }
 
 /* Mission & Vision */
 
-.tColor{
+.tColor {
   padding: 50px;
-  color: rgba(255, 255, 255,1) ;
+  color: rgba(255, 255, 255, 1);
   background-color: black;
 }
 
-.cardImgSize{
-  
+.cardImgSize {
   height: 480px;
 }
 
-.cardP{
+.cardP {
   padding: 0px 20px 20px 0px;
-  
 }
 
 /* Call to Action */
-.newsL{
+.newsL {
   padding: 20px;
 }
 
-
-.imgCards{
+.imgCards {
   height: 500px;
   width: 10px;
 }
 
-
-.bgColorbtn{
+.bgColorbtn {
   color: aliceblue;
   background-color: #fd7e14;
 }
@@ -106,15 +100,15 @@ font-size: 1rem;
   border: none;
 }
 
-.container1{
-   display: flex;
-    flex-direction: column;
+.container1 {
+  display: flex;
+  flex-direction: column;
 }
-.content1{
+.content1 {
   flex: 1;
 }
 .fixed-button {
-    align-self: flex-bottom;
+  align-self: flex-bottom;
 }
 
 /*  Central Message */
@@ -124,19 +118,17 @@ font-size: 1rem;
   height: 5rem;
 }
 
-
-
 /* FOOTER */
 
-.logo{
-  background-image: url("/Assets/src(images)/dhyan_logo.png");
-    background-size: cover;
-    height: 100px;
-    width: 100px;
+.logo {
+  background-image: url("/Assets/image/dhyan_logo.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
 }
 
-.chairPersonM{
-   background-image: url("/Assets/src(images)/dhyan_logo.png");
-    background-size: cover;
-    height: 80rem;
+.chairPersonM {
+  background-image: url("/Assets/image/dhyan_logo.png");
+  background-size: cover;
+  height: 80rem;
 }

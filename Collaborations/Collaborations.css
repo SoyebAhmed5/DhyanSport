@@ -20,7 +20,7 @@ body {
 }
 /* HEADER */
 .logo1 {
-  background-image: url("/Assets/src(images)/dhyan_logo.png");
+  background-image: url("/Assets/image/dhyan_logo.png");
   background-size: cover;
   height: 50px;
   width: 50px;
@@ -35,13 +35,15 @@ body {
   color: #fd7e14;
 }
 .logo {
-  background-image: url("/Assets/src(images)/dhyan_logo.png");
+  background-image: url("/Assets/image/dhyan_logo.png");
   background-size: cover;
   height: 100px;
   width: 100px;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   color: #ff6600;
   font-weight: 700;
 }
@@ -64,7 +66,8 @@ h1,h2,h3 {
   color: #fff;
   text-decoration: none;
 }
-ul,ol {
+ul,
+ol {
   margin-left: 20px;
 }
 
@@ -75,7 +78,6 @@ ul,ol {
   max-width: 100%;
   height: auto;
 }
-
 
 .section-content-wrapper {
   display: flex;

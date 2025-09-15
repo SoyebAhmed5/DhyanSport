@@ -2,43 +2,40 @@
   font-family: Bebas Neue;
 }
 
-pre{
+pre {
   font-family: Bebas Neue;
-font-size: 1rem;
+  font-size: 1rem;
 }
 
-body{
-    padding-top: 70px; /* Adjust based on your navbar height */
-    background-color: rgb(33, 37, 41);
-    color: rgb(237, 232, 232);
-    font-size: medium;
+body {
+  padding-top: 70px; /* Adjust based on your navbar height */
+  background-color: rgb(33, 37, 41);
+  color: rgb(237, 232, 232);
+  font-size: medium;
 }
 
 /* HEADER */
-.logo1{
-  background-image: url("/Assets/src(images)/dhyan_logo.png");
-    background-size: cover;
-    height: 50px;
-    width: 50px;
+.logo1 {
+  background-image: url("/Assets/image/dhyan_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
 }
-.focus{
+.focus {
   background-color: rgb(1, 13, 23);
   color: white;
-  
 }
-
 
 /* FOOTER */
-.textColor{
-  color:#fd7e14;
+.textColor {
+  color: #fd7e14;
 }
-.logo{
-  background-image: url("/Assets/src(images)/dhyan_logo.png");
-    background-size: cover;
-    height: 100px;
-    width: 100px;
+.logo {
+  background-image: url("/Assets/image/dhyan_logo.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
 }
-
 
 .section {
   margin: 40px 0;
@@ -46,11 +43,11 @@ body{
   border: 2px solid #ff6600;
   border-radius: 12px;
 }
- h1,h2{
+h1,
+h2 {
   color: #ff6600;
   font-weight: 700;
 }
-
 
 .section-image {
   border-radius: 12px;
@@ -59,7 +56,6 @@ body{
   max-width: 100%;
   height: auto;
 }
-
 
 .section-content-wrapper {
   display: flex;
@@ -79,7 +75,7 @@ body{
   }
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #fd7e14;
   font-weight: 600;
   border: solid #ff6600;
